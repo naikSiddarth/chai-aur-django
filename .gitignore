@@ -38,3 +38,4 @@ wheels/
 __pycache__
 media
 .vscode
+db.sqlite3

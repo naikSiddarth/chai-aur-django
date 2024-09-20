@@ -8,9 +8,9 @@
     <title>{% block title %}Default Title{% endblock %}</title>
     <link rel="stylesheet" href="{% static 'css/style.css'%}">
     {% tailwind_css %}
+    {% block headextend %} {% endblock %}
 </head>
 <body>
-    <nav>This is our nav bar</nav>
-    {% block content %}{% endblock %} 
+    {% block content %}{% endblock %}
 </body>
 </html>
